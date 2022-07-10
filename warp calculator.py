@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul  9 22:39:41 2022
+
+@author: Coding
+"""
+
 import time
 
 print("Warp Drive Awaiting Electromagnetic Engagement")
@@ -6,7 +13,7 @@ def warpgauge():
         try:
             warp = input("State warp core energy output in petajoules\n")
         
-            m = int(warp)*1000000000000000/89875517900000000
+            m = int(warp)*1000000000000000/89875517900000000*300
             print("Injecting tritium/deuterium plasma into reactor. ")
             print(str(m)+" KG of Fuel per Second in Use")
             time.sleep(3)
